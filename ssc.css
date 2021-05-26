@@ -1,0 +1,94 @@
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: antiquewhite!important;
+    font-family: 'Poppins', sans-serif!important;
+}
+.score{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    display: inline;
+    
+}
+.board{
+    margin: auto; 
+    width: 20%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 40px 40px 40px 40px;
+}
+p{
+    font-size: 2rem;
+    
+}
+.sizing{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.board-border{
+    margin-top: 50px;
+}
+
+.card-img-top{
+    width: 55%!important;
+    height: auto!important;
+    align-self: center;
+    
+}
+.card-img-top:hover{
+    
+    animation: rotation 0.1s linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(-40deg);
+    }
+    to {
+      transform: rotate(40deg);
+    }
+  }
+
+.card{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    border-radius: 80px 80px 80px 80px!important;
+}
+.card:hover{
+    background-color: burlywood;
+}
+
+
+
+.card-group{
+    margin-top: 50px!important;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.card-body{
+    text-align: center!important;
+    
+}
+
+.user{
+    display: inline;
+    font-size: 2rem;
+}
+.comp{
+    display: inline;
+    font-size: 2rem;
+}
+
+.result{
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media screen and (min-width: 280px) and (max-width: 1024px){
+    .board{
+        width: 90%;
+    }
+}
